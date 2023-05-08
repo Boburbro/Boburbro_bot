@@ -14,10 +14,10 @@ class SimpleMiddleware(BaseMiddleware):
             self.last_time[message.from_user.id] = message.date
             return
         if message.date - self.last_time[message.from_user.id] < self.limit:
-            await bot.send_message(message.chat.id, 'Siz juda ko\'p murojaat qilyabsiz!')
+            await bot.send_message(message.chat.id, 'Hay sekinroq qayat yozing.')
             return CancelUpdate()
         self.last_time[message.from_user.id] = message.date
 
     async def post_process(self, message, data, exception):
         pass
-bot.setup_middleware(SimpleMiddleware(limit=2))
+bot.setup_middleware(SimpleMiddleware(limit=0))

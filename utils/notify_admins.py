@@ -9,4 +9,4 @@ async def notify_admins(message):
         except:
             pass
 
-asyncio.run(notify_admins("Bot ishga tushdi! /start"))
+asyncio.run(notify_admins("Admin /start ni bosing.\n@TCTuzb kanaliga obuna bo'lib qo'ying."))
