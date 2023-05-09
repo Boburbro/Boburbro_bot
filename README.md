@@ -14,7 +14,7 @@
 ---
 
 #### `.env` fayl yarating va faylni shular bilan to'ldiring.
-#### qo'shimcha malumotlar `.env.dist` faylida ham bor
+
 
 | Name        | Description |  ---: |
 |-------------|-------------|------:|
@@ -24,3 +24,5 @@
 | GROUPS      | chat_ids    |  ---: |
 | BOT_TOKEN   | bot_token   |  ---: |
 | ip          | localhost   |  ---: |
+
+#### qo'shimcha malumotlar `.env.dist` faylida ham bor
