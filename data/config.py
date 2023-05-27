@@ -9,9 +9,6 @@ env.read_env()
 # BOT_TOKEN=123452345243:Asdfasdfasf
 # ip=localhost
 
-OWNER=env.str("OWNER")
 ADMINS=env.list("ADMINS")
-CHANELS=env.list("CHANELS")
-GRUPS=env.list("GRUPS")
 BOT_TOKEN=env.str("BOT_TOKEN")
 ip=env.str("ip")
