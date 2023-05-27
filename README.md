@@ -1,4 +1,4 @@
-# Telebot
+## pyTelegramBotAPI
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Telegram](https://img.shields.io/badge/telegram-3670A0?style=for-the-badge&logo=telegram&logoColor=00000)
 ---
 <picture>
@@ -11,18 +11,10 @@
 ## O'rnatish:
 `git clone https://github.com/Boburbro/Bot`
 
+`python main.py`
+
+`python bot.py`
+
 ---
 
-#### `.env` fayl yarating va faylni shular bilan to'ldiring.
-
-
-| Name        | Description |  ---: |
-|-------------|-------------|------:|
-| OWNER       | chat_id     |  ---: |
-| ADMINS      | chat_ids    |  ---: |
-| CHANEL      | chat_ids    |  ---: |
-| GROUPS      | chat_ids    |  ---: |
-| BOT_TOKEN   | bot_token   |  ---: |
-| ip          | localhost   |  ---: |
-
-#### qo'shimcha malumotlar `.env.dist` faylida ham bor
+#### Qo'shimcha malumotlar `.env.dist` fayli
