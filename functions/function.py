@@ -3,7 +3,7 @@ def isAdmin(chat_id: str):
     """Admin yoki odiy userligini aniqlaydi"""
     if str(chat_id) in ADMINS:return True
     else:return False
-def isNewMemeber(chat_id: str):
+def isNewMember(chat_id: str):
     """Yangi yoki eski user ligini aniqlaydi"""
     import sqlite3
     db = sqlite3.connect('baza.db')
