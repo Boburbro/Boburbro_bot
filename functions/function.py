@@ -34,16 +34,6 @@ def addNewMember(chat_id: str):
     except:
         return False
 
-
-def get_tr(text):
-    """Kril->Latin, Latin->Kril"""
-    from transliterate import to_cyrillic, to_latin
-    if text.isascii():
-        return (to_cyrillic(text))
-    else:
-        return (to_latin(text))
-
-
 def showFIKR():
     """Bazadan fikrlarni ko'ramiz"""
     import sqlite3

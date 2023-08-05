@@ -3,7 +3,8 @@ from loader import bot
 from states.state1 import STATE1_
 from states.state2 import STATE2_
 from telebot.types import Message
-from functions.function import get_tr,addFIKR,addMQ
+from functions.function import addFIKR,addMQ
+from functions.inline_mode import get_tr
 from keyboards.inline.button1 import InlineMatkup1
 from keyboards.default.button_start import markup1
 

@@ -1,5 +1,13 @@
 from googletrans import Translator
-from function import get_tr
+
+def get_tr(text):
+    """Kril->Latin, Latin->Kril"""
+    from transliterate import to_cyrillic, to_latin
+    if text.isascii():
+        return (to_cyrillic(text))
+    else:
+        return (to_latin(text))
+
 def inline_BOT(text):
     if text[:2] == 'kl': # kril latin bot
         text1='Tarjimani yuborish'
